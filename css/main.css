@@ -1,0 +1,174 @@
+body{
+    background-attachment: fixed;
+    background-color: azure;
+    
+}
+header{
+    
+}
+.manu{
+    width: 400px;
+    float: left;
+    height: 80px;
+    background-color: white ;
+}
+ul {
+   align-items: center;
+   float: left;
+   justify-content: center;
+   display: flex;
+}
+ul li {
+   list-style: none;
+   margin-left: 66px;
+   margin-top: 14px;
+   font-size: 22px;
+   align-items: center;
+}
+ul li a{
+    text-decoration: solid;
+    color:gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    font-size: medium;
+}
+ul li a:hover{
+    color: lightskyblue;
+}
+.search{
+   height: 20px;
+   float: right;
+   margin-right: 00px;
+
+}
+footer{
+
+}
+.pargraph1{
+   
+    color: darkgrey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    border-style: groove;
+    
+}
+.paragraph2{
+    background-color: white;
+    color: darkgrey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    border-style: groove;
+ 
+}
+.robots{
+    font-style: italic;
+    border-style: groove;
+    border: 10px;
+    display: flex;
+    margin: 40px;
+    margin-left: 80px;
+    gap: 40px;
+    
+}
+.robots:hover{
+    color: lightskyblue;
+}
+.robo1{
+    border-style: groove;
+    padding-left: 10px;
+    padding-top: 20px;
+    margin: 60px;
+}
+.robo2{
+    border-style: groove;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin: 60px;
+}
+
+.robo3{
+    border-style: groove;
+
+    padding-left: 30px;
+    padding-top: 20px;
+    margin: 60px;
+}
+.footer{
+    background-color: white;
+    border: 10px;
+
+}
+.socialmedia{
+    display: flex;
+    margin-left: 400px;
+    gap: 40px;
+
+}
+/* contacts */
+.contacts{
+  font-size: x-large;
+  font-style: italic;
+  display: ruby-base;
+  border-style: groove;
+  background-color: cornflowerblue;
+}
+form{
+    max-width: fit-content;
+    max-height: fit-content;
+    background: wheats;
+    padding: 40px;
+    padding-left: 440px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    padding-left: 600px;
+}
+label{
+    display: block;
+    margin: 20px;
+
+}
+input, textarea{
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    outline: none;
+    resize: none;
+    border: none;
+    border-bottom: 1px solid white;
+
+}
+button[type="submit"]{
+    width: 100%;
+    max-width: 200px;
+    background-color: red;
+    color: darkblue;
+    font-size: medium;
+    border-radius: 3px;
+}
+input[type="email"] {
+    background-color: blanchedalmond;
+
+
+}
+input[type="text"] {
+    background-color: darkgreen;
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+button[type="search"]{width: 100%;
+    max-width: 200px;
+    background-color:lightblue;
+    
+    font-size: medium;
+    border-radius: 3px;
+
+}
+button[type="search"]:hover{
+    color: lightskyblue;
+
+}
+
+button[type="submit"]:hover{
+    color: lightskyblue;
+}
